@@ -59,7 +59,7 @@
 #define UPPER_MASK 0x80000000UL /* most significant w-r bits */
 #define LOWER_MASK 0x7fffffffUL /* least significant r bits */
 
-#define THREAD_N 128
+#define THREAD_N 8
 
 static unsigned long mt[MT_N][THREAD_N]; /* the array for the state vector  */
 static int mti[THREAD_N];
